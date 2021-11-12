@@ -1,0 +1,44 @@
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Testman</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body onload="carregaProjetos();">
+	<header>
+		<div class="container">
+			<h2 class="header">Testman</h2>
+		</div>
+	</header>
+	<main>
+		<section class="container">
+			<h2>
+				Projetos
+			</h2>
+
+			<div class="search-pane">
+				<div class="buttons-pane">
+					<button id="refresh" name="refresh">Atualizar</button>
+					<button id="insert" name="insert">Incluir</button>
+				</div>
+			</div>
+
+			<span class="message">
+				<div id="messages" class="error"></div>
+			</span>
+
+			<div>
+				<ul id="list"></ul>
+			</div>
+
+		</section>
+	</main>
+
+	<script src="js/index.js"></script>
+</body>
+
+</html>

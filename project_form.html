@@ -1,0 +1,51 @@
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Testman</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/form.css">
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<h2 class="header">Testman</h2>
+		</div>
+	</header>
+	<main>
+		<section class="container">
+			<h2>
+				Dados do projeto
+			</h2>
+
+			<div class="search-pane">
+				<div class="buttons-pane">
+					<button id="cancel">Cancelar</button>
+				</div>
+			</div>
+
+			<span class="message">
+				<div id="messages" class="error"></div>
+			</span>
+
+			<form id="form" name="#form">
+
+				<label for="name">Nome do projeto</label>
+				<input type="text" id="name" name="name" placeholder="Um nome para o projeto" value="" required>
+
+				<label for="description">Descrição do projeto(opcional)</label>
+				<input type="text" id="description" name="description" placeholder="Uma descrição para o projeto"
+					value="">
+				</div>
+				<input class="form-button" type="submit" value="Salvar" />
+			</form>
+
+		</section>
+	</main>
+	<script src="js/project_form.js"></script>
+</body>
+
+</html>
